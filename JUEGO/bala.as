@@ -8,7 +8,7 @@
 		public function bala(pos_x,pos_y) {
 			// constructor code
 			x = pos_x; 
-			y = pos_y + 30;
+			y = pos_y + 30; 
 			this.addEventListener(Event.ENTER_FRAME, mover); 
 		}
 		public function mover(e: Event){
